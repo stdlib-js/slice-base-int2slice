@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import int2slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-int2slice@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/slice-base-int2slice/tags). For example,
+
+```javascript
 import int2slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-int2slice@v0.1.0-deno/mod.js';
 ```
 
@@ -109,7 +114,7 @@ A returned error object may have one of the following error codes:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import int2slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-int2slice@v0.1.0-deno/mod.js';
+import int2slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-int2slice@deno/mod.js';
 
 var s = int2slice( -1, 7, false );
 console.log( '%s', s.toString() );
