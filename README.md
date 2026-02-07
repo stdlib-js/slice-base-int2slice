@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import int2slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-int2slice@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/slice-base-int2slice/tags). For example,
+
+```javascript
 import int2slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-int2slice@v0.2.3-esm/index.mjs';
 ```
 
@@ -114,7 +119,7 @@ A returned error object may have one of the following error codes:
 <body>
 <script type="module">
 
-import int2slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-int2slice@v0.2.3-esm/index.mjs';
+import int2slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-int2slice@esm/index.mjs';
 
 var s = int2slice( -1, 7, false );
 console.log( '%s', s.toString() );
