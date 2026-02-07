@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import int2slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-int2slice@esm/index.mjs';
+import int2slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-int2slice@v0.2.3-esm/index.mjs';
 ```
 
 <a name="main"></a>
@@ -114,7 +114,7 @@ A returned error object may have one of the following error codes:
 <body>
 <script type="module">
 
-import int2slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-int2slice@esm/index.mjs';
+import int2slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-int2slice@v0.2.3-esm/index.mjs';
 
 var s = int2slice( -1, 7, false );
 console.log( '%s', s.toString() );
